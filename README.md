@@ -6,11 +6,11 @@ Files included in this repository:
 
 - **HUPD_metadata_preliminary_analysis.ipynb:** This file contains the code that was used to conduct our preliminary analysis of the 25,000 patents we sampled from the larger HUPD dataset to determine if the “filing date,” “examiner art unit,” “ipc label”, “foreign,” “small entity indicator,” and “aia first to file” metadata variables were actually correlated with patent acceptance rate.
 
--**BERT_model_benchmark.ipynb:** An implementation of [BERT](https://doi.org/10.48550/arxiv.1810.04805) fine-tuned on the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043), which we used as a benchmark for our PatentLLM model. 
+- **BERT_model_benchmark.ipynb:** An implementation of [BERT](https://doi.org/10.48550/arxiv.1810.04805) fine-tuned on the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043), which we used as a benchmark for our PatentLLM model. 
 
--**PatentLLM.ipynb:** Our hierarchical transformer-based model for patent acceptance prediction, trained on a subset of the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043). 
+- **PatentLLM.ipynb:** Our hierarchical transformer-based model for patent acceptance prediction, trained on a subset of the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043). 
 
--**PatentLLM_with_Metadata.ipynb:** An augmented version of our hierarchical transformer-based model for patent acceptance prediction that incorporates metadat variables, trained on a subset of the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043). 
+- **PatentLLM_with_Metadata.ipynb:** An augmented version of our hierarchical transformer-based model for patent acceptance prediction that incorporates metadat variables, trained on a subset of the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043). 
 
 References for Code:
 1. [https://colab.research.google.com/drive/1wm8Z0ui8ZGSXoR50x52GvWMQkfSPPJ-T#scrollTo=SCFXYdbIXguc](https://colab.research.google.com/drive/1wm8Z0ui8ZGSXoR50x52GvWMQkfSPPJ-T#scrollTo=SCFXYdbIXguc)
