@@ -4,7 +4,7 @@ This project was conducted by Anh Ta, Erin McGowan, and Maksat Kuanyshbay as a p
 
 ## Files included in this repository:
 
-- **HUPD_metadata_preliminary_analysis.ipynb:** This file contains the code that was used to conduct our preliminary analysis of the 25,000 patents we sampled from the larger HUPD dataset to determine if the “filing date,” “examiner art unit,” “ipc label”, “foreign,” “small entity indicator,” and “aia first to file” metadata variables were actually correlated with patent acceptance rate.
+- **[HUPD_metadata_preliminary_analysis.ipynb](https://github.com/egm68/ML-Final_Project/blob/main/HUPD_metadata_preliminary_analysis.ipynb):** This file contains the code that was used to conduct our preliminary analysis of the 25,000 patents we sampled from the larger HUPD dataset to determine if the “filing date,” “examiner art unit,” “ipc label”, “foreign,” “small entity indicator,” and “aia first to file” metadata variables were actually correlated with patent acceptance rate.
 
 - **BERT_model_benchmark.ipynb:** An implementation of [BERT](https://doi.org/10.48550/arxiv.1810.04805) fine-tuned on the [Harvard USPTO Patent Dataset](https://doi.org/10.48550/arxiv.2207.04043), which we used as a benchmark for our PatentLLM model. 
 
